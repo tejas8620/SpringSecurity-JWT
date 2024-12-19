@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: 44.2-SpringSecurity_JWT_Application
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tejapatil
+    username: root
+    password: tejas@123
+
+  jpa:
+    show-sql: true
+
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8081
+
